@@ -1,0 +1,133 @@
+
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0%;
+  }
+  p,a,li,figcaption,th,td,button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+  }
+
+
+/* the header */
+header{
+    height: 80px;
+    background: #121318;
+    display: flex;
+    align-items: center;
+    color: #f4f4f4;
+  }
+  header div{
+    height: 80px;
+    width: auto;
+    flex-grow: 1;
+    margin-left: 30px;
+  }
+  header nav ul{
+    display: flex;
+    list-style: none;
+  }
+  header nav ul li{
+    padding: 0px 15px;
+  }
+  header nav ul li a{
+    color: #f4f4f4;
+    text-decoration: none;
+  }
+  @import 'https://fonts.googleapis.com/css?family=Karla';
+:root {
+  font-size: 13px;
+}
+@media screen and (min-width: 1000px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  :root {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1480px) {
+  :root {
+    font-size: 17px;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #eeeeee;
+  line-height: 2em;
+overflow: hidden;
+}
+.footer{
+  background:#121318;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+  
+  .footer > .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:gray;
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }
+
+.container{
+    background-image: url(./bg.jpeg);
+    width: 100%;
+    height: 70vh;
+    color:#121318
+}
+.container h1,h3{
+    padding-top: 100px;
+    padding-left: 100px;
+}
